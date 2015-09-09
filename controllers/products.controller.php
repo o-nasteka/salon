@@ -78,3 +78,5 @@ class ProductsController extends Controller {
         Router::redirect('/admin/products/');
     }
 }
+
+// new comments
