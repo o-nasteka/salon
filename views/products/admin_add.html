@@ -1,0 +1,42 @@
+<h3>Добавить товар</h3><br/>
+<form method="post" action="">
+    <div class="form-group">
+        <label for="alias">Alias</label>
+        <input type="text" id="alias" name="alias" value="" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="title">Заголовок</label>
+        <input type="text" id="title" name="title" value="" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="title">Категория товара</label>
+        <select class="form-control">
+            <option>Жалюзи</option>
+            <option>Ролеты</option>
+            <option>Плиссе</option>
+            <option>Антимоскитные сетки</option>
+            <option>Внешние системы</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="title">Подкатегория товара</label>
+        <select class="form-control">
+            <option>Горизонтальные</option>
+            <option>Вертикальные</option>
+            <option>Деревянные и бамбуковые</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="text-short">Краткое описание</label>
+        <textarea name="text_short" id="text-short" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="text-long">Основное описание</label>
+        <textarea name="text_long" id="text-long" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="is_published">Publish?</label>
+        <input type="checkbox" name="is_published" id="is_published" checked="checked" />
+    </div>
+    <input type="submit" class="btn btn-success" />
+</form>
