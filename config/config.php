@@ -15,10 +15,10 @@ Config::set('default_language', 'en');
 Config::set('default_controller', 'pages');
 Config::set('default_action', 'index');
 
-Config::set('db.host', 'nasteka.mysql.ukraine.com.ua');
-Config::set('db.user', 'nasteka_salon');
-Config::set('db.password', '7w87p3rj');
-Config::set('db.db_name', 'nasteka_salon');
+Config::set('db.host', 'mysql.hostinger.com.ua');
+Config::set('db.user', 'u809291240_salon');
+Config::set('db.password', '5mZYspsRRv');
+Config::set('db.db_name', 'u809291240_salon');
 
 Config::set('salt', 'jd7sj3sdkd964he7e');
 
