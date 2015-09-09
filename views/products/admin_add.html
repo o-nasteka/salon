@@ -9,8 +9,9 @@
         <input type="text" id="title" name="title" value="" class="form-control" />
     </div>
     <div class="form-group">
-        <label for="title">Категория товара</label>
-        <select class="form-control">
+        <label for="category">Категория товара</label>
+        <select class="form-control" name="category" id="category">
+            <option></option>
             <option>Жалюзи</option>
             <option>Ролеты</option>
             <option>Плиссе</option>
@@ -19,24 +20,21 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="title">Подкатегория товара</label>
-        <select class="form-control">
-            <option>Горизонтальные</option>
+        <label for="sub_category">Подкатегория товара</label>
+        <select class="form-control" name="sub_category" id="sub_category">
+            <option></option>
+            <option >Горизонтальные</option>
             <option>Вертикальные</option>
             <option>Деревянные и бамбуковые</option>
         </select>
     </div>
     <div class="form-group">
-        <label for="text-short">Краткое описание</label>
-        <textarea name="text_short" id="text-short" class="form-control"></textarea>
+        <label for="content_short">Краткое описание</label>
+        <textarea name="content_short" id="content_short" class="form-control"></textarea>
     </div>
     <div class="form-group">
-        <label for="text-long">Основное описание</label>
-        <textarea name="text_long" id="text-long" class="form-control"></textarea>
-    </div>
-    <div class="form-group">
-        <label for="is_published">Publish?</label>
-        <input type="checkbox" name="is_published" id="is_published" checked="checked" />
+        <label for="content">Основное описание</label>
+        <textarea name="content" id="content" class="form-control"></textarea>
     </div>
     <input type="submit" class="btn btn-success" />
 </form>

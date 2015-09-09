@@ -14,14 +14,14 @@ class Message extends Model {
 
         if ( !$id ){ // Add new record
             $sql = "
-                insert into messages
+                insert into `messages`
                    set name = '{$name}',
                        email = '{$email}',
                        message = '{$message}'
             ";
         } else { // Update existing record
             $sql = "
-                update messages
+                update `messages`
                    set name = '{$name}',
                        email = '{$email}',
                        message = '{$message}'
@@ -34,7 +34,7 @@ class Message extends Model {
     }
 
     public function getList(){
-        $sql = "select * from messages where 1";
+        $sql = "select * from `messages` where 1";
         return $this->db->query($sql);
     }
 

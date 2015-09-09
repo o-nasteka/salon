@@ -3,7 +3,7 @@
 class Page extends Model{
 
     public function getList($only_published = false){
-        $sql = "select * from pages where 1";
+        $sql = "select * from `pages` where 1";
         if ( $only_published ){
             $sql .= " and is_published = 1";
         }
@@ -12,14 +12,14 @@ class Page extends Model{
 
     public function getByAlias($alias){
         $alias = $this->db->escape($alias);
-        $sql = "select * from pages where alias = '{$alias}' limit 1";
+        $sql = "select * from `pages` where `alias` = '{$alias}' limit 1";
         $result = $this->db->query($sql);
         return isset($result[0]) ? $result[0] : null;
     }
 
     public function getById($id){
         $id = (int)$id;
-        $sql = "select * from pages where id = '{$id}' limit 1";
+        $sql = "select * from `pages` where `id` = '{$id}' limit 1";
         $result = $this->db->query($sql);
         return isset($result[0]) ? $result[0] : null;
     }
@@ -37,7 +37,7 @@ class Page extends Model{
 
         if ( !$id ){ // Add new record
             $sql = "
-                insert into pages
+                insert into `pages`
                    set alias = '{$alias}',
                        title = '{$title}',
                        content = '{$content}',
@@ -45,12 +45,12 @@ class Page extends Model{
             ";
         } else { // Update existing record
             $sql = "
-                update pages
+                update `pages`
                    set alias = '{$alias}',
                        title = '{$title}',
                        content = '{$content}',
                        is_published = {$is_published}
-                   where id = {$id}
+                   where `id` = {$id}
             ";
         }
 
@@ -59,7 +59,7 @@ class Page extends Model{
 
     public function delete($id){
         $id = (int)$id;
-        $sql = "delete from pages where id = {$id}";
+        $sql = "delete from `pages` where `id` = {$id}";
         return $this->db->query($sql);
     }
 

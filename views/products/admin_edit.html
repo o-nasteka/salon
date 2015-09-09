@@ -1,22 +1,24 @@
 
 <h3>Edit page</h3><br/>
 <form method="post" action="">
-    <input type="hidden" name="id" value="<?=$data['page']['id']?>" />
+    <input type="hidden" name="id" value="<?=$data['products']['id']?>" />
     <div class="form-group">
         <label for="alias">Alias</label>
-        <input type="text" id="alias" name="alias" value="<?=$data['products']['alias']?>" class="form-control" />
+        <input type="text" id="alias" name="alias" value="<?=$data['products']['alias']?>" class="form-control" required />
     </div>
     <div class="form-group">
         <label for="title">Title</label>
-        <input type="text" id="title" name="title" value="<?=$data['products']['title']?>" class="form-control" />
+        <input type="text" id="title" name="title" value="<?=$data['products']['title']?>" class="form-control" required />
     </div>
     <div class="form-group">
-        <label for="content">Content</label>
-        <textarea name="content" id="content" class="form-control"><?=$data['products']['content']?></textarea>
+        <label for="сontent_short">Краткое описание</label>
+        <textarea  id="сontent_short" name="сontent_short" value="<?=htmlspecialchars($data['products']['сontent_short'])?>" class="form-control" required></textarea>
     </div>
     <div class="form-group">
-        <label for="is_published">Publish?</label>
-        <input type="checkbox" name="is_published" id="is_published"> <?php if( $data['products']['is_published'] ) { ?>checked="checked" <?php } ?> />
+        <label for="content">Основное описание</label>
+        <textarea  id="content" name="content" value="<?=htmlspecialchars($data['products']['content'])?>" class="form-control" required></textarea>
     </div>
     <input type="submit" class="btn btn-success" />
+
+
 </form>

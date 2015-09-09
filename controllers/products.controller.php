@@ -54,8 +54,13 @@ class ProductsController extends Controller {
             Router::redirect('/admin/products/');
         }
 
+
+
         if ( isset($this->params[0]) ){
             $this->data['products'] = $this->model->getById($this->params[0]);
+            // echo "<pre>";
+            // var_dump($this->data['products']);
+            // exit;
         } else {
             Session::setFlash('Wrong page id.');
             Router::redirect('/admin/products/');
