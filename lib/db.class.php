@@ -8,9 +8,9 @@ class DB{
         $this->connection = new mysqli($host, $user, $password, $db_name);
         $this->connection -> set_charset("utf8");
 
-        if( mysqli_connect_error() ){
-            throw new Exception('Could not connect to DB');
-        }
+        // if( mysqli_connect_error() ){
+        //    throw new Exception('Could not connect to DB');
+        // }
     }
 
     public function query($sql){
