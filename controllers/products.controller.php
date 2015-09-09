@@ -1,12 +1,9 @@
 <?php
 class ProductsController extends Controller {
-    
-    
-    
+
     public function __construct($data = array()){
         parent::__construct($data);
         $this->model = new Products_m();
-        //$this->model = new Products();
     }
     
     public function index(){
