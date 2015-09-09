@@ -21,3 +21,5 @@ Config::set('db.password', 'Z4x5VaJ6GQcT2JVB');
 Config::set('db.db_name', 'salon');
 
 Config::set('salt', 'jd7sj3sdkd964he7e');
+
+// comments
