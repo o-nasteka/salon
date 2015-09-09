@@ -22,7 +22,7 @@ class ProductsController extends Controller {
           
             $this->data['products'] = $this->model->getByCategoryId($params[0]);
 
-            // dfklvndfkvnkdf
+            
         }
-    } ////
+    } 
 }
