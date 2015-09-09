@@ -17,7 +17,7 @@ Config::set('default_action', 'index');
 
 Config::set('db.host', 'mysql.hostinger.com.ua');
 Config::set('db.user', 'u809291240_salon');
-Config::set('db.password', '5mZYspsRRv');
+Config::set('db.password', '9B7WuDvfQp');
 Config::set('db.db_name', 'u809291240_salon');
 
 Config::set('salt', 'jd7sj3sdkd964he7e');
