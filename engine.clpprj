@@ -1,51 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="D:\web\xampp\htdocs\engine.local\www\engine.clpprj">
+<project name="D:\web\xampp\htdocs\engine.local\www\salon\engine.clpprj">
 	<settings><PM_URL><![CDATA[D:/web/xampp/htdocs/rb.ua/]]></PM_URL><PM_HOME_URL><![CDATA[D:/web/xampp/htdocs/rb.ua/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\init.php"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\models\page.php"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\views\products\admin_edit.html"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php"/>
 	</lastopfiles>
 	<errors version="5.3">
-		<errfile name="D:\web\xampp\htdocs\engine.local\www\views\pages\order.html">
-			<error val="74;43;88;43;2002;1;"/>
-			<error val="66;44;85;44;2002;1;"/>
-			<error val="75;47;89;47;2002;1;"/>
-			<error val="67;48;86;48;2002;1;"/>
-			<error val="43;16;58;16;2002;1;"/>
-			<error val="144;309;163;309;2002;1;"/>
-			<error val="77;300;91;300;2002;1;"/>
-			<error val="62;301;81;301;2002;1;"/>
-			<error val="78;304;92;304;2002;1;"/>
-			<error val="63;305;82;305;2002;1;"/>
-			<error val="39;137;54;137;2002;1;"/>
+		<errfile name="D:\web\xampp\htdocs\engine.local\www\salon\views\products\admin_edit.html">
+			<error val="51;14;131;14;2002;1;"/>
+			<error val="46;18;119;18;2002;1;"/>
 		</errfile>
-		<errfile name="D:\web\xampp\htdocs\engine.local\www\views\default.html">
-			<error val="41;157;54;157;2002;1;"/>
-			<error val="63;222;82;222;2002;1;"/>
-			<error val="60;204;79;204;2002;1;"/>
-			<error val="68;211;87;211;2002;1;"/>
-			<error val="55;281;74;281;2002;1;"/>
-			<error val="113;81;135;81;2002;1;"/>
-			<error val="92;81;113;81;2002;1;"/>
-			<error val="78;81;92;81;2002;1;"/>
-			<error val="19;80;39;80;2002;1;"/>
-			<error val="113;99;135;99;2002;1;"/>
-			<error val="92;99;113;99;2002;1;"/>
-			<error val="78;99;92;99;2002;1;"/>
-			<error val="19;98;39;98;2002;1;"/>
-			<error val="113;125;135;125;2002;1;"/>
-			<error val="92;125;113;125;2002;1;"/>
-			<error val="78;125;92;125;2002;1;"/>
-			<error val="19;124;39;124;2002;1;"/>
-			<error val="113;135;135;135;2002;1;"/>
-			<error val="92;135;113;135;2002;1;"/>
-			<error val="78;135;92;135;2002;1;"/>
-			<error val="19;134;39;134;2002;1;"/>
-		</errfile>
-		<errfile name="D:\web\xampp\htdocs\engine.local\www\views\admin.html">
-			<error val="41;35;54;35;2002;1;"/>
+		<errfile name="D:\web\xampp\htdocs\engine.local\www\salon\views\admin.html">
+			<error val="41;36;54;36;2002;1;"/>
 		</errfile>
 	</errors>
 	<codestructure version="5.0">
@@ -58,33 +25,33 @@
 			</treenode>
 			<treenode node="App;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\app.class.php;f0;2;1;67;;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f0;2;1;54;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f0;2;1;48;;;;vpos;;v;;r;;d9,2;;b0,0;;m">
 				<treenode node="getRouter;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\app.class.php;f18;12;5;14;;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f18;11;5;13;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f18;11;5;13;;;;vpos;;vmixed;;r&#xA;Description&#xA;     ;;d38,11;;b1,5;;m">
-					<treenode node="router;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f21;12;28;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="router;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f21;12;28;12;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f21;12;28;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="run;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\app.class.php;f18;17;5;64;;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f18;15;5;52;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f18;15;5;46;;;;vpos;;v;;r;;d36,15;;b1,5;;muri;;p">
-					<treenode node="content;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f12;44;20;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="content;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f12;44;20;44;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f12;38;20;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="controller_class;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;22;25;22;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="controller_class;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;22;25;22;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f8;22;25;22;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="controller_method;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;23;26;23;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="controller_method;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;23;26;23;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f8;23;26;23;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="controller_object;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;36;26;36;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="controller_object;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;36;26;36;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f8;33;26;33;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="db;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f14;18;17;18;;;;vposDB;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="db;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f14;18;17;18;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f14;18;17;18;;;;vposDB;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="layout;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;26;15;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="layout;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;26;15;26;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f8;25;15;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="layout_path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;49;20;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="layout_path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;49;20;49;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f8;43;20;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="layout_view_object;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;50;27;50;;;;vposView;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="layout_view_object;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f8;50;27;50;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f8;44;27;44;;;;vposView;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="router;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f14;16;21;16;;;;vposRouter;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="router;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f14;16;21;16;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f14;16;21;16;;;;vposRouter;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="uri;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\app.class.php;f31;17;35;17;;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f31;15;35;15;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f31;15;35;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="view_object;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f12;43;24;43;;;;vposView;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="view_object;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f12;43;24;43;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f12;37;24;37;;;;vposView;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="view_path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f12;42;22;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="view_path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f12;42;22;42;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f12;36;22;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="db;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\app.class.php;f18;6;21;6;;D:\web\xampp\htdocs\engine.local\www\lib\app.class.php;f18;6;21;6;;D:\web\xampp\htdocs\engine.local\www\salon\lib\app.class.php;f18;6;21;6;;;;vpos;;v;;r;;d-1,-1;;b1,5;;m">
@@ -262,17 +229,17 @@
 				<treenode node="db;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\model.class.php;f14;4;17;4;;D:\web\xampp\htdocs\engine.local\www\backup\lib\model.class.php;f14;4;17;4;;D:\web\xampp\htdocs\engine.local\www\salon\lib\model.class.php;f14;4;17;4;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Page;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f0;2;1;65;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f0;2;1;65;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f0;2;1;65;;;;vpos;;vModel;;c;;r;;d24,2;;b0,0;;m">
-				<treenode node="delete;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;59;5;63;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;59;5;63;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;59;5;63;;;;vpos;;v;;r;;d31,59;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f27;59;30;59;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f27;59;30;59;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f27;59;30;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Page;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f0;2;1;65;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f0;2;1;65;;;;vpos;;vModel;;c;;r;;d24,2;;b0,0;;m">
+				<treenode node="delete;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;59;5;63;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;59;5;63;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;59;5;63;;;;vpos;;v;;r;;d31,59;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f27;59;30;59;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f27;59;30;59;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f27;59;30;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;61;12;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f15;62;20;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getByAlias;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;12;5;17;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;12;5;17;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;12;5;17;;;;vpos;;v;;r;;d38,12;;b1,0;;malias;;p">
-					<treenode node="alias;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f31;12;37;12;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f31;12;37;12;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f31;12;37;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getByAlias;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;12;5;17;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;12;5;17;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;12;5;17;;;;vpos;;v;;r;;d38,12;;b1,0;;malias;;p">
+					<treenode node="alias;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f31;12;37;12;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f31;12;37;12;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f31;12;37;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;15;15;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -281,8 +248,8 @@
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f17;13;22;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getById;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;19;5;24;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;19;5;24;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;19;5;24;;;;vpos;;v;;r;;d32,19;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f28;19;31;19;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f28;19;31;19;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f28;19;31;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getById;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;19;5;24;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;19;5;24;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;19;5;24;;;;vpos;;v;;r;;d32,19;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f28;19;31;19;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f28;19;31;19;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f28;19;31;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;22;15;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -291,22 +258,22 @@
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f18;22;23;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getList;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;4;5;10;;D:\web\xampp\htdocs\engine.local\www\models\Codelobster0.php;f11;3;5;9;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;4;5;10;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;4;5;10;;;;vpos;;v;;r;;d52,4;;b1,0;;monly_published;;p">
-					<treenode node="only_published;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f28;4;43;4;;D:\web\xampp\htdocs\engine.local\www\models\Codelobster0.php;f28;3;43;3;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f28;4;43;4;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f28;4;43;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getList;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;4;5;10;;D:\web\xampp\htdocs\engine.local\www\models\Codelobster0.php;f11;3;5;9;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;4;5;10;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;4;5;10;;;;vpos;;v;;r;;d52,4;;b1,0;;monly_published;;p">
+					<treenode node="only_published;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f28;4;43;4;;D:\web\xampp\htdocs\engine.local\www\models\Codelobster0.php;f28;3;43;3;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f28;4;43;4;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f28;4;43;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\Codelobster0.php;f8;4;12;4;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;5;12;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\Codelobster0.php;f15;8;20;8;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f15;9;20;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="save;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;26;5;57;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;26;5;57;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;26;5;57;;;;vpos;;v;;r;;d43,26;;b1,0;;mdata;;pid;;p">
+				<treenode node="save;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f11;26;5;57;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f11;26;5;57;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f11;26;5;57;;;;vpos;;v;;r;;d43,26;;b1,0;;mdata;;pid;;p">
 					<treenode node="alias;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;32;14;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="content;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;34;16;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f25;26;30;26;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f25;26;30;26;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f25;26;30;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f25;26;30;26;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f25;26;30;26;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f25;26;30;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f32;26;35;26;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f32;26;35;26;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f32;26;35;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\models\page.php;f32;26;35;26;;D:\web\xampp\htdocs\engine.local\www\salon\models\page.php;f32;26;35;26;;D:\web\xampp\htdocs\engine.local\www\models\page.php;f32;26;35;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="is_published;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\page.php;f8;35;21;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -318,14 +285,14 @@
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="PagesController;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f0;2;1;71;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f0;2;1;85;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f0;2;1;85;;;;vpos;;vController;;c;;r;;d40,2;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;4;5;7;;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f11;3;5;6;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;4;5;7;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;4;5;7;;;;vpos;;v;;r;;d48,4;;b1,0;;mdata;;p">
-					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f32;4;37;4;;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f32;3;37;3;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f32;4;37;4;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f32;4;37;4;;;;vposvoid;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="PagesController;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f0;2;1;71;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f0;2;1;85;;;;vpos;;vController;;c;;r;;d40,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;4;5;7;;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f11;3;5;6;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;4;5;7;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;4;5;7;;;;vpos;;v;;r;;d48,4;;b1,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f32;4;37;4;;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f32;3;37;3;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f32;4;37;4;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f32;4;37;4;;;;vposvoid;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f8;5;13;5;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f8;6;13;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="admin_add;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;26;5;36;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;40;5;50;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;40;5;50;;;;vpos;;v;;r;;d31,40;;b1,0;;m">
+				<treenode node="admin_add;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;26;5;36;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;40;5;50;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;40;5;50;;;;vpos;;v;;r;;d31,40;;b1,0;;m">
 					<treenode node="_POST;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f13;41;19;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f12;42;19;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -333,13 +300,13 @@
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f22;42;27;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="admin_delete;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;59;5;69;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;73;5;83;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;73;5;83;;;;vpos;;v;;r;;d34,73;;b1,0;;m">
+				<treenode node="admin_delete;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;59;5;69;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;73;5;83;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;73;5;83;;;;vpos;;v;;r;;d34,73;;b1,0;;m">
 					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f12;75;19;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f19;74;24;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="admin_edit;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;38;5;57;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;52;5;71;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;52;5;71;;;;vpos;;v;;r;;d32,52;;b1,0;;m">
+				<treenode node="admin_edit;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;38;5;57;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;52;5;71;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;52;5;71;;;;vpos;;v;;r;;d32,52;;b1,0;;m">
 					<treenode node="_POST;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f13;54;19;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f12;55;15;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -349,15 +316,15 @@
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f22;56;27;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="admin_index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;22;5;24;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;36;5;38;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;36;5;38;;;;vpos;;v;;r;;d33,36;;b1,0;;m">
+				<treenode node="admin_index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;22;5;24;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;36;5;38;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;36;5;38;;;;vpos;;v;;r;;d33,36;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f8;37;13;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;9;5;11;;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f11;8;5;10;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;9;5;11;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;9;5;11;;;;vpos;;v;;r;;d27,9;;b1,0;;m">
+				<treenode node="index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;9;5;11;;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f11;8;5;10;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;9;5;11;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;9;5;11;;;;vpos;;v;;r;;d27,9;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\Codelobster0.php;f8;9;13;9;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f8;10;13;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="order;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;25;5;34;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;25;5;34;;;;vpos;;v;;r;;d27,25;;b1,0;;m">
+				<treenode node="order;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;25;5;34;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;25;5;34;;;;vpos;;v;;r;;d27,25;;b1,0;;m">
 					<treenode node="alias;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f12;29;18;29;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="params;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f8;26;15;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -365,7 +332,7 @@
 					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f12;30;17;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="view;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;13;5;20;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;13;5;22;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;13;5;22;;;;vpos;;v;;r;;d26,13;;b1,0;;m">
+				<treenode node="view;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\controllers\pages.controller.php;f11;13;5;20;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php;f11;13;5;22;;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f11;13;5;22;;;;vpos;;v;;r;;d26,13;;b1,0;;m">
 					<treenode node="alias;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f12;17;18;17;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="params;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php;f8;14;15;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -374,37 +341,93 @@
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="Products_m;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f0;1;1;18;;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f0;1;1;18;;;;vpos;;vModel;;c;;r;;d31,1;;b0,0;;m">
-				<treenode node="getByCategoryId;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f9;10;5;15;;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f9;10;5;15;;;;vpos;;v;;r;;d39,10;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f35;10;38;10;;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f35;10;38;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Products_m;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f0;1;1;18;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f0;1;1;56;;;;vpos;;vModel;;c;;r;;d31,1;;b0,0;;m">
+				<treenode node="getByCategoryId;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f9;10;5;15;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;8;5;13;;;;vpos;;v;;r;;d38,8;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f35;10;38;10;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f34;8;37;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f8;12;12;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f8;12;12;12;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;10;12;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f15;13;20;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f15;13;20;13;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f15;11;20;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getList;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f11;3;5;7;;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f11;3;5;7;;;;vpos;;v;;r;;d29,3;;b1,0;;m">
-					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f8;4;12;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getById;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f11;15;5;20;;;;vpos;;v;;r;;d32,15;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f28;15;31;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f15;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;18;15;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;17;12;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f18;18;23;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getList;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f11;3;5;7;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f11;3;5;6;;;;vpos;;v;;r;;d29,3;;b1,0;;m">
+					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f8;4;12;4;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;4;12;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\models\products_m.php;f15;5;20;5;;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f15;5;20;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="save;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f11;22;5;54;;;;vpos;;v;;r;;d43,22;;b1,0;;mdata;;pid;;p">
+					<treenode node="alias;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;28;14;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="content;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;30;16;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="content_short;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;31;22;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f25;22;30;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f32;22;35;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f12;35;16;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f17;28;22;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="title;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php;f8;29;14;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="ProductsController;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f0;1;1;27;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f0;1;1;27;;;;vpos;;vController;;c;;r;;d44,1;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f11;5;5;9;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f11;5;5;9;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;5;5;9;;;;vpos;;v;;r;;d48,5;;b1,0;;mdata;;p">
-					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f32;5;37;5;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f32;5;37;5;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f32;5;37;5;;;;vposvoid;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="ProductsController;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f0;1;1;81;;;;vpos;;vController;;c;;r;;d44,1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;3;5;6;;;;vpos;;v;;r;;d48,3;;b1,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f32;3;37;3;;;;vposvoid;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f8;7;13;7;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f8;7;13;7;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;7;13;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="category;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f10;17;5;25;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f10;17;5;26;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f10;17;5;26;;;;vpos;;v;;r;;d29,17;;b1,0;;m">
-					<treenode node="params;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f8;18;15;18;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f8;18;15;18;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;18;15;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f12;22;17;22;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f12;22;17;22;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f12;22;17;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;5;13;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f11;11;5;15;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f11;11;5;15;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;11;5;15;;;;vpos;;v;;r;;d27,11;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f8;12;13;12;;D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php;f8;12;13;12;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;12;13;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="admin_add;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;31;5;41;;;;vpos;;v;;r;;d31,31;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f13;32;19;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f12;33;19;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f22;33;27;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="admin_delete;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;70;5;80;;;;vpos;;v;;r;;d34,70;;b1,0;;m">
+					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f12;72;19;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f19;71;24;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="admin_edit;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;43;5;68;;;;vpos;;v;;r;;d32,43;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f13;45;19;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f12;47;15;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f12;48;19;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f22;48;27;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="admin_index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;26;5;28;;;;vpos;;v;;r;;d33,26;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;27;13;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="category;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;15;5;24;;;;vpos;;v;;r;;d30,15;;b1,0;;m">
+					<treenode node="params;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;16;15;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f12;20;17;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="index;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f11;8;5;12;;;;vpos;;v;;r;;d27,8;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php;f8;9;13;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -562,30 +585,44 @@
 				<treenode node="admin_logout;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\controllers\users.controller.php;f11;21;5;24;;D:\web\xampp\htdocs\engine.local\www\backup\controllers\users.controller.php;f11;21;5;24;;D:\web\xampp\htdocs\engine.local\www\salon\controllers\users.controller.php;f11;21;5;24;;;;vpos;;v;;r;;d34,21;;b1,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="View;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f0;2;1;48;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f0;2;1;40;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f0;2;1;40;;;;vpos;;v;;r;;d10,2;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f11;21;5;33;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f11;19;5;28;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f11;19;5;28;;;;vpos;;v;;r;;d62,19;;b1,0;;mdata;;ppath;;p">
-					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f32;21;37;21;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f32;19;37;19;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f32;19;37;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="View;PHP:Class Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f0;2;1;48;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f0;2;1;40;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f0;2;1;42;;;;vpos;;v;;r;;d10,2;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f11;21;5;33;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f11;19;5;28;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f11;21;5;30;;;;vpos;;v;;r;;d62,21;;b1,0;;mdata;;ppath;;p">
+					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f32;21;37;21;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f32;19;37;19;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f32;21;37;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f49;21;54;21;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f49;19;54;19;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f49;19;54;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f49;21;54;21;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f49;19;54;19;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f49;21;54;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f8;28;13;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getDefaultViewPath;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f21;8;5;19;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f21;8;5;17;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f21;8;5;17;;;;vpos;;v;;r;;d50,8;;b2,5;;m">
+				<treenode node="getDefaultViewPath;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f21;8;5;19;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f21;8;5;17;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f21;8;5;19;;;;vpos;;v;;r;;d50,8;;b2,5;;m">
+					<treenode node="controller_dir;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f8;13;23;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="router;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f8;9;15;9;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="template_name;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f8;14;22;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="render;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f11;37;5;46;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f11;30;5;38;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f11;30;5;38;;;;vpos;;v;;r;;d28,30;;b1,0;;m">
+				<treenode node="render;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f11;37;5;46;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f11;30;5;38;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f11;32;5;40;;;;vpos;;v;;r;;d28,32;;b1,0;;m">
+					<treenode node="content;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f8;37;16;37;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f8;33;13;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f16;33;21;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="data;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f14;4;19;4;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f14;4;19;4;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f14;4;19;4;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
 				</treenode>
 				<treenode node="path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\view.class.php;f14;6;19;6;;D:\web\xampp\htdocs\engine.local\www\lib\view.class.php;f14;6;19;6;;D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php;f14;6;19;6;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="__;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f0;22;1;24;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f0;20;1;22;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f0;20;1;22;;;;vpos;;v;;r;;d38,20;;b0,0;;mkey;;pdefault_value;;p">
-				<treenode node="default_value;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f18;22;32;22;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f18;22;32;22;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f18;20;32;20;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f18;20;32;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="__;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f0;22;1;24;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f0;20;1;22;;;;vpos;;v;;r;;d38,20;;b0,0;;mkey;;pdefault_value;;p">
+				<treenode node="default_value;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f18;22;32;22;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f18;20;32;20;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f18;20;32;20;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f18;20;32;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="key;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f12;22;16;22;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f12;22;16;22;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f12;20;16;20;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f12;20;16;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f12;22;16;22;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f12;20;16;20;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f12;20;16;20;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f12;20;16;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="__autoload;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f0;4;1;20;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f0;4;1;18;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f0;4;1;18;;;;vpos;;v;;r;;d32,4;;b0,0;;mclass_name;;p">
-				<treenode node="class_name;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f20;4;31;4;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f20;4;31;4;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f20;4;31;4;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f20;4;31;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="__autoload;PHP:Function Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f0;4;1;20;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f0;4;1;18;;;;vpos;;v;;r;;d32,4;;b0,0;;mclass_name;;p">
+				<treenode node="class_name;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\backup\lib\init.php;f20;4;31;4;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f20;4;31;4;;D:\web\xampp\htdocs\engine.local\www\salon\lib\init.php;f20;4;31;4;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f20;4;31;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="controllers_path;PHP:Var Name;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f4;6;21;6;;D:\web\xampp\htdocs\engine.local\www\lib\init.php;f4;6;21;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -3944,20 +3981,6 @@
 	<dbgurls>
 	</dbgurls>
 	<filescache>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\js\script.js" crc="-1159358485"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\js\npm.js" crc="-162100116"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\js\jquery.blueimp-gallery.min.js" crc="-789457853"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\js\bootstrap.min.js" crc="1469513137"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\js\bootstrap.js" crc="-1130470362"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\js\bootstrap-image-gallery.min.js" crc="-450772752"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\css\styles.css" crc="-1828534803"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\css\bootstrap.min.css" crc="-1824657740"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\css\bootstrap.css" crc="1444647518"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\css\bootstrap-theme.min.css" crc="-27899441"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\css\bootstrap-theme.css" crc="-586447698"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\css\bootstrap-image-gallery.min.css" crc="-333261988"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\index.php" crc="133143955"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\webroot\.htaccess" crc="1535050758"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\webroot\js\script.js" crc="-1159358485"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\webroot\js\npm.js" crc="-162100116"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\webroot\js\jquery.blueimp-gallery.min.js" crc="-789457853"/>
@@ -3972,11 +3995,11 @@
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\webroot\css\bootstrap-image-gallery.min.css" crc="-333261988"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\webroot\index.php" crc="133143955"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\webroot\.htaccess" crc="1535050758"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\user.php" crc="916351204"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php" crc="-811047149"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\page.php" crc="820490446"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\message.php" crc="242475677"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php" crc="1000596118"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\user.php" crc="-291537453"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\products_m.php" crc="-1417827222"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\page.php" crc="484597590"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\models\message.php" crc="1131561008"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\view.class.php" crc="1597903055"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\session.class.php" crc="1794987121"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\router.class.php" crc="-217410120"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lib\model.class.php" crc="1641560829"/>
@@ -3989,44 +4012,16 @@
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lang\fr.php" crc="351691787"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\lang\en.php" crc="-1960776841"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\controllers\users.controller.php" crc="1515279215"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php" crc="-2114284722"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\controllers\products.controller.php" crc="1177021423"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\controllers\pages.controller.php" crc="-1986056766"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\controllers\contacts.controller.php" crc="1457798077"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\config\config.php" crc="-352683384"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\scopes\scope_settings.xml" crc="2157974"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\workspace.xml" crc="-412206189"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\workspace.xml" crc="611099804"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\vcs.xml" crc="1104296756"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\modules.xml" crc="1185508529"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\misc.xml" crc="-456079630"/>
 		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.idea\encodings.xml" crc="-303890289"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.htaccess" crc="1182948178"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\models\user.php" crc="916351204"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\models\products_m.php" crc="1467797912"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\models\page.php" crc="820490446"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\models\message.php" crc="242475677"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\view.class.php" crc="1000596118"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\session.class.php" crc="1794987121"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\router.class.php" crc="-217410120"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\model.class.php" crc="1641560829"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\lang.class.php" crc="-886431539"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\init.php" crc="46270610"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\db.class.php" crc="1726698388"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\controller.class.php" crc="-1494361964"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\config.class.php" crc="-1447414344"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lib\app.class.php" crc="-1916058587"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lang\fr.php" crc="351691787"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\lang\en.php" crc="-1960776841"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\controllers\users.controller.php" crc="1515279215"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\controllers\products.controller.php" crc="-338967729"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\controllers\pages.controller.php" crc="-1986056766"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\controllers\contacts.controller.php" crc="1457798077"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\config\config.php" crc="-352683384"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.idea\scopes\scope_settings.xml" crc="2157974"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.idea\workspace.xml" crc="-412206189"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.idea\vcs.xml" crc="1104296756"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.idea\modules.xml" crc="1185508529"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.idea\misc.xml" crc="-456079630"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.idea\encodings.xml" crc="-303890289"/>
-		<file name="D:\web\xampp\htdocs\engine.local\www\.htaccess" crc="1182948178"/>
+		<file name="D:\web\xampp\htdocs\engine.local\www\salon\.htaccess" crc="-1905023052"/>
 	</filescache>
 </project>

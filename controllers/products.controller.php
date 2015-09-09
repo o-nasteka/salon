@@ -44,6 +44,7 @@ class ProductsController extends Controller {
     public function admin_edit(){
 
         if ( $_POST ){
+            
             $id = isset($_POST['id']) ? $_POST['id'] : null;
             $result = $this->model->save($_POST, $id);
             if ( $result ){
@@ -58,9 +59,9 @@ class ProductsController extends Controller {
 
         if ( isset($this->params[0]) ){
             $this->data['products'] = $this->model->getById($this->params[0]);
-            // echo "<pre>";
-            // var_dump($this->data['products']);
-            // exit;
+             echo "<pre>";
+             var_dump($this->data['products']);
+             exit;
         } else {
             Session::setFlash('Wrong page id.');
             Router::redirect('/admin/products/');

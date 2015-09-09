@@ -13,7 +13,9 @@ class View{
         }
         $controller_dir = $router->getController();
         $template_name = $router->getMethodPrefix().$router->getAction().'.html';
-
+		
+		
+		
         return VIEWS_PATH.DS.$controller_dir.DS.$template_name;
     }
 
