@@ -12,7 +12,7 @@
     </div>
     <div class="form-group">
         <label for="сontent_short">Краткое описание</label>
- <textarea  id="сontent_short" name="сontent_short" value="<?=$data['products']['сontent_short']?>" class="form-control" required> </textarea>
+ <textarea  id="сontent_short" name="сontent_short" <?=$data['products']['content_short']?>" class="form-control" required> </textarea>
     </div>
     <div class="form-group">
         <label for="content">Основное описание</label>
@@ -22,9 +22,3 @@
 
 
 </form>
-
-<?php 
-	echo "<pre>";
-	print_r($data['products']);
-	exit;
-?>
