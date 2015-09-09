@@ -2,7 +2,7 @@
 class Products_m extends Model {
 
     public function getList(){
-        $sql = "select * from `products` order by `id`";
+        $sql = "select * from `products`";
         return $this->db->query($sql);
     }
 	
